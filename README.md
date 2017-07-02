@@ -1,9 +1,9 @@
 # RTVPS
-Red Team VPS 
+Red Team VPS
 
 How to use:
 
-Install Ubuntu 16.04 vps. 
+Install Ubuntu 16.04 vps.
 
 Then prep your server to start the install by doing the following
 Set hostname (this is not a command, just set it)
@@ -53,13 +53,12 @@ production:
  port: 5432
  pool: 75
  timeout: 5
- 
+
  Stage 4
- 
+
  Usage:
  #./stage4.sh
- 
- Stage 4 downloads and installs Armitage and configures it to work with metasploit. 
+
+ Stage 4 downloads and installs Armitage and configures it to work with metasploit.
 
 Thats it, in theory, you should be able to run metasploit now with msfconsole
-
